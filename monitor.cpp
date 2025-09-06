@@ -35,7 +35,7 @@ void RAM() {
     cout << "RAM total: " << statex.ullTotalPhys / 1024 / 1024 << " MB" << endl;
 }
 
-void show() {
+void monitor() {
     cout << "---------------------" << endl;
     stack();
     heap();
